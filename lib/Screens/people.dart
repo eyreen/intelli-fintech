@@ -210,7 +210,7 @@ class _PeopleState extends State<People> {
 
   Future getAIResponse(String prompt) async {
     // TODO: Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
-    const String apiKey = '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';
+    const String apiKey = 'YOUR OPEN AI KEY';
     const String model = 'gpt-3.5-turbo-instruct'; // Use GPT-3.5-turbo model
 
     final Uri apiUrl = Uri.parse('https://api.openai.com/v1/engines/$model/completions');

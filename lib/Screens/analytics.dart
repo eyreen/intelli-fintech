@@ -144,7 +144,7 @@ class _AnalyticsState extends State<Analytics> {
 
   Future<void> getAIInsights() async {
     // TODO: Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
-    const String apiKey = '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';
+    const String apiKey = 'YOUR OPEN AI KEY';
 
     final String prompt = """
     Financial Overall Analysis:

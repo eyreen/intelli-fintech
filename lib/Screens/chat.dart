@@ -38,7 +38,7 @@ class _ChatScreenState extends State<ChatScreen> {
   String? _attachedFilePath;
   FlutterTts flutterTts = FlutterTts(); // Initialize TTS engine
   _ChatScreenState() {
-    OPENAI_API_KEY = "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";
+    OPENAI_API_KEY = "YOUR OPEN AI KEY";
     _openAI = OpenAI.instance.build(
       token: OPENAI_API_KEY,
       baseOption: HttpSetup(
